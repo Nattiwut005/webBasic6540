@@ -1,0 +1,16 @@
+.text-capital {
+   text-transform: uppercase;
+}
+.button {
+ border-radius: 30px;
+ background-color: rgb(255, 3, 3);
+ padding: 8px 8px;
+ margin: 30px;display: inline-block;
+}
+a {
+ text-decoration: none;
+ color: antiquewhite;
+}
+input {
+    margin-top: 10px;
+}
