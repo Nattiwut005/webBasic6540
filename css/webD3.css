@@ -157,7 +157,7 @@ a {
 /*----------------------------Start Members section------------------------------*/
 
 .Member {
-   background-color: #0bffde;
+   background-color: #EFCEA7;
    padding: 40px;
 
 }
@@ -202,6 +202,99 @@ td {
 
 }
 
+/*---------------------------- start Contact Section ---------------------------------*/
+
+.contact {
+   /*background-color: #e9ddda;*/
+   padding: 40px;
+}
+
+.contact-box {
+   /*background-color: #bfe2ee;*/
+}
+
+.textCon {
+   /*background-color: #EFCEA7;*/
+   color: #581A0C;
+   text-align: center;
+   margin-top: 40px;
+   text-transform: uppercase;
+}
+
+.boxcontact1 {
+   /*background-color: #715f5f;*/
+   display: flex;
+   justify-content: space-evenly;
+   margin-left: 1%;
+   
+}
+
+.boxcontact2 {
+   /*background-color: #715f5f;*/
+   
+}
+
+.boxname {
+   /*background-color: #695c5c;*/
+   color: #581A0C;
+   
+}
+
+.boxmail {
+   color: #581A0C;
+   /*background-color: #695c5c;*/
+   
+}
+
+.boxsub1 {
+   /*background-color: #695c5c;*/
+   color: #581A0C;
+   margin-left: 21%;
+   
+}
+
+.boxsub {
+   /*background-color: #695c5c;*/
+   
+   
+   margin: 45px;
+   margin-right: 100%;
+   
+}
+
+.boxMess1 {
+   margin-left: 23%;
+   
+}
+
+.boxMessage {
+   /*background-color: #695c5c;*/
+   margin-top: 10px;
+   justify-content: center;
+   color: #581A0C;
+   width: 1040px;
+}
+
+.button {
+   font-size: 20px;
+   color: aliceblue;
+   background-color: #EA0202;
+   margin-left: 900px;
+   width: 500px;
+   margin-bottom: 40px;
+   border-radius: 40px;
+   padding: 10px;
+   text-align: center;
+   
+   
+}
 
 
 
+/*----------------------footer-------------------------*/
+
+footer {
+   text-align: center;
+   border-radius: 10px;
+   font-size: 25px;
+}

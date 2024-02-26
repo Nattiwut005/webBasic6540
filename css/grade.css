@@ -1,0 +1,96 @@
+
+nav {
+    text-align: center;
+    font-size: 25px;
+}
+
+.box1 {
+    background-image: url("Rectangle\ 9.png");
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxname {
+    padding: 30px;
+    
+    
+
+}
+
+.name {
+    background-color:#FFD8AB;
+    
+
+}
+
+.boxresume {
+    background-color:#FFD8AB;
+    width: 30%;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+
+.box2 {
+    background-color: #DCF2F1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxG {
+    text-align: center;
+}
+
+.grade1 {
+    font-size: 26px;
+    background-color: #FFD8AB;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 60px;
+    width: 500px;
+    
+}
+
+.grade2 {
+    font-size: 26px;
+    background-color: #FFD8AB;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 60px;
+    width: 500px;
+}
+
+.grade3 {
+    font-size: 26px;
+    background-color: #FFD8AB;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 60px;
+    width: 500px;
+    
+}
+
+.grade4 {
+    font-size: 26px;
+    background-color: #FFD8AB;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 60px;
+    width: 500px;
+}
+.image {
+    /*background-color: aquamarine;*/
+}
+
+.icon {
+    padding: 10px;
+    
+}
+
+footer {
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
