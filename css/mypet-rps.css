@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900&display=swap');
+
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #9E246F;
+}
+
+nav {
+    display: flex;
+    /*background-color: rgb(11, 255, 88);*/
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+
+    justify-content: space-between;
+    color: azure;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+/*----------------rps Menu ---------------------*/
+@media screen and (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+
+/*------------------------------- hero ---------------------------------*/
+.hero {
+    background-image: url("258.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-hero {
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+}
+
+/*------------------------------- contact-accout -------------------------------*/
+
+.contact-accout {
+    background-color: rgb(116, 116, 116);
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    
+    
+}
+
+.img1 {
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    padding: 10px;
+}
+
+/*------------------------------- rps contact accout ---------------------------*/
+
+@media screen and (max-width: 768px) {
+    .contact-accout {
+        display: grid;
+        /*grid-template-columns: 1fr 1fr 1fr;*/
+        grid-template-columns: repeat(2,1fr);
+        max-width: 95%;
+        margin: auto;
+     
+     }
+     
+}
+
+@media screen and (max-width: 480px) {
+    .contact-accout {
+        display: grid;
+        /*grid-template-columns: 1fr 1fr 1fr;*/
+        grid-template-columns: repeat(1,1fr);
+        max-width: 95%;
+        margin: auto;
+     
+     }
+    
+}
+
+/*------------------------------- mypet-content ---------------------------------*/
+
+.mypet-content {
+   display: grid;
+   /*grid-template-columns: 1fr 1fr 1fr;*/
+   grid-template-columns: repeat(3,1fr);
+   max-width: 95%;
+   margin: auto;
+
+}
+
+.box {
+   /*background-color: brown;*/
+   margin: 30px 10px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 3px 0px red;
+
+}
+
+.img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text-content {
+    padding: 10px;
+}
+
+/*----------------rps Pet-Content ---------------------*/
+@media screen and (max-width: 768px) {
+    .mypet-content {
+        display: grid;
+        /*grid-template-columns: 1fr 1fr 1fr;*/
+        grid-template-columns: repeat(2,1fr);
+        max-width: 95%;
+        margin: auto;
+     
+     }
+     
+}
+
+@media screen and (max-width: 480px) {
+    .mypet-content {
+        display: grid;
+        /*grid-template-columns: 1fr 1fr 1fr;*/
+        grid-template-columns: repeat(1,1fr);
+        max-width: 95%;
+        margin: auto;
+     
+     }
+    
+}
+
+
+
+/*--------------------------- footer ---------------------*/
+
+footer {
+    background-color: #9E246F;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
