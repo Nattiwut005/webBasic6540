@@ -78,7 +78,7 @@ nav ul li {
 .text-hero {
     color: aliceblue;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 /*------------------------------- contact-accout -------------------------------*/
@@ -153,6 +153,14 @@ nav ul li {
     padding: 10px;
 }
 
+.button {
+    color: aliceblue;
+    background-color: #ff73c9;
+    padding: 8px 24px;
+    border-radius: 30px;
+    display: inline-block;
+    
+}
 /*----------------rps Pet-Content ---------------------*/
 @media screen and (max-width: 768px) {
     .mypet-content {
