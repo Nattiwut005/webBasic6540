@@ -14,3 +14,14 @@ a {
 input {
     margin-top: 10px;
 }
+
+.mybg {
+    background-color: rgb(82, 0, 103);
+}
+
+footer {
+    background-color: #9E246F;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
